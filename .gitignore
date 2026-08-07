@@ -1,0 +1,28 @@
+# Android / Gradle
+.gradle/
+build/
+app/build/
+
+# Local Android configuration
+local.properties
+
+# Release signing credentials
+keystore.properties
+*.jks
+*.keystore
+
+# IDE
+.idea/
+*.iml
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+.gradle-8.3-bin.zip
+.gradle-8.3.1-bin.zip
+gradle-8.3/
+*.hprof
+hs_err_pid*.log
+replay_pid*.log
+build-output.txt

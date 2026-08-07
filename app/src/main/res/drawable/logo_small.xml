@@ -1,0 +1,48 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Transparent background -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M0,0h48v48h-48z" />
+    
+    <!-- Focus target - outer ring -->
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M24,8C33.28,8,40,14.72,40,24s-6.72,16-16,16-16-6.72-16-16S14.72,8,24,24Z" />
+    
+    <!-- Focus target - inner ring -->
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M24,14C30.08,14,35,18.92,35,25s-4.92,11-11,11-11-4.92-11-11S17.92,14,24,25Z" />
+    
+    <!-- Game controller body -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M18,22h12l2,6-2,6h-12l-2-6 2-6z" />
+    
+    <!-- Controller D-pad left -->
+    <path
+        android:fillColor="#0F1410"
+        android:pathData="M20,26h8v2h-8z" />
+    <path
+        android:fillColor="#0F1410"
+        android:pathData="M24,22v8" />
+    
+    <!-- Controller buttons right -->
+    <path
+        android:fillColor="#0F1410"
+        android:pathData="M32,24a1,1 0,1 1,2 0a1,1 0,1 1,-2 0z" />
+    <path
+        android:fillColor="#0F1410"
+        android:pathData="M34,26a1,1 0,1 1,2 0a1,1 0,1 1,-2 0z" />
+    <path
+        android:fillColor="#0F1410"
+        android:pathData="M32,28a1,1 0,1 1,2 0a1,1 0,1 1,-2 0z" />
+</vector>

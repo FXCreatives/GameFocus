@@ -1,0 +1,25 @@
+﻿<resources>
+    <string name="app_name">GameFocus</string>
+    <string name="analytics_title">Analytics</string>
+    <string name="no_sessions_recorded">No gaming sessions recorded yet.</string>
+    <string name="play_games_to_see_analytics">Play some games to see analytics!</string>
+    <string name="time_overview">Time Overview</string>
+    <string name="today">Today</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="most_played_game">Most Played Game</string>
+    <string name="top_games">Top Games</string>
+    <string name="weekly_trend">Weekly Trend</string>
+    <string name="daily_activity">Daily Activity</string>
+    <string name="total_play_time">Total Play Time</string>
+    <string name="total_sessions">Total Sessions</string>
+    <string name="average_duration">Average Duration</string>
+    <string name="sessions_format">%1$d sessions</string>
+    <string name="minutes_format">%1$dm</string>
+    <string name="export_analytics">Export Analytics</string>
+    <string name="export_csv">Export CSV</string>
+    <string name="export_json">Export JSON</string>
+    <string name="export_pdf">Export PDF</string>
+    <string name="export_success">Export successful</string>
+    <string name="export_failed">Export failed</string>
+</resources>

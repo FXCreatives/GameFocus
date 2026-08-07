@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Transparent background -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:pathData="M0,0h200v200h-200z" />
+    
+    <!-- Focus target - Outer ring with glow effect -->
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="6"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M100,20C144.4,20,180,55.6,180,100s-35.6,80-80,80-80-35.6-80-80S55.6,20,100,100Z" />
+    
+    <!-- Focus target - Inner ring -->
+    <path
+        android:strokeColor="#22C55E"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M100,40C131.28,40,155,63.72,155,95s-23.72,55-55,55-55-23.72-55-55S68.72,40,100,95Z" />
+    
+    <!-- Game controller - premium design -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M88,100h24l4,12-4,12H88l-4-12 4-12z" />
+    
+    <!-- Controller center -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M100,98l6,6-6,6-6-6z" />
+</vector>
