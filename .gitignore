@@ -37,3 +37,5 @@ replay_pid*.log
 
 # Build / temporary output
 build-output.txt
+
+legacy-gradle-checkout/
