@@ -11,6 +11,11 @@ keystore.properties
 *.jks
 *.keystore
 
+# APK / AAB files
+*.apk
+*.aab
+*.apks
+
 # IDE
 .idea/
 *.iml
@@ -19,10 +24,16 @@ keystore.properties
 captures/
 .externalNativeBuild/
 .cxx/
+
+# Gradle distributions / downloads
 .gradle-8.3-bin.zip
 .gradle-8.3.1-bin.zip
 gradle-8.3/
+
+# JVM crash / profiling files
 *.hprof
 hs_err_pid*.log
 replay_pid*.log
+
+# Build / temporary output
 build-output.txt
